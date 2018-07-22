@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<svg height="130" width="500">
+  		<defs>
+    		<linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      			<stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+      			<stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+    		</linearGradient>
+  		</defs>
+  		<ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+  		<text fill="#ffffff" font-size="55" font-family="bernad MT" x="55" y="85">AM</text>
+ 	</svg>
+	<h1 style="text-aling:center;">Curriculum Vitae</h1>
+	<br>
+	<h2><u>Datos Personales</u></h2>
+	<h3>Nombre: <em>Agustin Martinez</em></h3>
+	<h3>Fecha de Nacimiento: <em>25/05/98</em></h3>
+	<h3>Lugar de Nacimiento: <em>La Rioja (Argentina)</em></h3>
+	<br>
+	<svg width="300" height="5" viewBox="0 0 300 5">
+    	<line x1="0" y1="0" x2="300" y2="0" style="stroke:red; stroke-width:8"></line>
+    </svg>
+    <br>
+	
+	<a href="../index.html">Inicio</a>
+	<a href="educacion.html">Educación</a>
+	<a href="experiencia.html">Experiencia</a>
+	<br>
+	<svg width="300" height="5" viewBox="0 0 300 5">
+    	<line x1="0" y1="0" x2="300" y2="0" style="stroke:red; stroke-width:8"></line>
+    </svg>
+    <br>
+	
+	<h2><strong><u>Educación</u></strong></h2>
+
+	<table border="1">
+  		<tr>
+    		<th scope="col">Año</th>
+    		<th scope="col">Institución</th>
+    		<th scope="col">Lugar</th>
+    		<th scope="col">¿culminó?</th>
+  		</tr>
+ 
+  		<tr>
+    		<td>2015</td>
+    		<td>Pio X</td>
+    		<td>La Rioja(Argentina)</td>
+    		<td>Si</td>			
+
+  		</tr>
+ 
+  		<tr>
+    		<td>2018</td>
+    		<td>UNLaR</td>
+    		<td>La Rioja(Argentina)</td>
+    		<td>Cursando</td>
+  		</tr>
+
+	</table>
+	
+	<h2><u>Agregar Estudios</u></h2>
+
+	<form action="post">
+		<p>
+			<label for="ano">Año</label>
+			<select name="año" id="ano">
+   				<option value="1">2014</option> 
+   				<option value="2">2015</option> 
+   				<option value="3">2016</option>
+   				<option value="4">2017</option> 
+   				<option value="5">2018</option> 
+   			</select><br>
+			<label for="institucion">Institución</label>
+			<input type="text" id="institucion" required><br>
+			<label for="lugar">Lugar</label><br>
+			<textarea name="lugar" id="lugar" cols="30" rows="2"></textarea><br><br>
+			<button>Enviar</button>
+		</p>
+	</form>
+
+
+</body>
+<footer>
+
+	<svg width="100%" height="5" viewBox="0 0 100% 5">
+    	<line x1="0" y1="0" x2="100%" y2="0" style="stroke:black; stroke-width:8"></line>
+    </svg>
+
+	<p>email:agusmartinez@gmail.com- cel:+543804445566- La Rioja(Argentina)</p>
+</footer>
+
+</html>
